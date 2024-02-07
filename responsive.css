@@ -1,0 +1,38 @@
+.left-content {
+    display: none;
+}
+
+.main-content {
+    margin: 3.5rem 5vw 0 5vw;
+}
+
+.search-icon {
+    width: 2.5rem;
+    margin-left: 1rem;
+}
+
+.search-icon input {
+    display: none;
+}
+
+
+@media screen and (max-width: 1100px) {
+    .right-content {
+        display: none;
+    }
+
+    .nav {
+        justify-content: space-around;
+    }
+
+    .nav .center-icons {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 670px) {
+
+    .create-post .icons .feeling{
+        display: none;
+    }
+}
